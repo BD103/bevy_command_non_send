@@ -1,6 +1,8 @@
-//! This is a small utility library that enables manipulating non-[`Send`] resources using [`Commands`] in Bevy.
+//! This is a small utility library that enables manipulating non-[`Send`] resources using [`Commands`] in [Bevy].
 //!
 //! You can use this library by importing [`CommandsExt`] and calling all of its methods on [`Commands`], or you can manually call [`Commands::add`].
+//! 
+//! [Bevy]: https://bevyengine.org
 
 use bevy_ecs::{
     system::{Command, Commands},
