@@ -1,7 +1,14 @@
 [package]
 name = "bevy_command_non_send"
 version = "0.1.0"
+authors = ["BD103"]
 edition = "2021"
+license = "MIT OR Apache-2.0"
+rust-version = "1.76.0" # Based on Bevy's requirements.
+description = "Manipulate non-send resources using commands in Bevy"
+repository = "https://github.com/BD103/bevy_command_non_send"
+categories = ["game-development"]
+keywords = ["bevy"]
 
 [dependencies]
 bevy_ecs = { version = "0.13", default-features = false }
