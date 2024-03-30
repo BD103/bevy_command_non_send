@@ -1,0 +1,1 @@
+window.ALL_CRATES = ["bevy_command_non_send"];

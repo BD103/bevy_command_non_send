@@ -1,0 +1,1 @@
+window.SIDEBAR_ITEMS = {"fn":["init_non_send_resource","insert_non_send_resource","remove_non_send_resource"],"trait":["CommandsExt"]};
